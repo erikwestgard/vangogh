@@ -1,0 +1,531 @@
+/* Embedded Fonts */
+@font-face {
+	font-family: 'martel light';
+	src: url("../fonts/Martel-Light.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: 'martel regular';
+	src: url("../fonts/Martel-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: 'roboto';
+	src: url("../fonts/roboto.woff") format("woff");
+}
+
+
+/* Container Items */
+.header {
+	width: 100vw;
+	height: 100px;
+	background: black;
+	position: fixed;
+	padding: 10px;
+	overflow: hidden;
+	z-index: 1;
+}
+
+.logoH {
+	width: 200px;
+	height: 100px;
+	background: url("../images/Logo_white-Minneapolis.png") center;
+	background-size: cover;
+	position: absolute;
+	overflow: hidden;
+	cursor: pointer;
+	
+}
+
+.options {
+	width: 100px;
+	height: 100px;
+	background: url("../images/unnamed (2).png") center;
+	background-size: cover;
+	float: right;
+}
+
+.search {
+	width: 75px;
+	height: 100px;
+	background: url("../images/search.png") center no-repeat;
+	background-size: 75%;
+	float: right;
+}
+
+.cover {
+	width: 100vw;
+	height: 100vh;
+	background: url("../images/Social-Distancing-Circles-600x401.jpg") center fixed no-repeat;
+	background-size: cover;
+}
+
+.quotes {
+	font-family: 'martel light';
+	font-size: 1.2em;
+	color: white;
+	position: absolute;
+	left: 42px;
+	bottom: 100px;
+	letter-spacing: 0.3px;
+	text-align: center;
+	margin-left: 250px;
+	margin-right: 250px;
+	line-height: 30px;
+	margin-top: 100px;
+}
+
+.pagebanner1 {
+	width: 100vw;
+	height: 270px;
+	background: url("../images/bg-white-texture.jpg") center no-repeat;
+	background-size: cover;
+	display: flex;
+
+}
+
+.creatives {
+	font-family: 'martel regular';
+	font-size: 45px;
+	color: black;
+	letter-spacing: 0.1px;
+	display: inline-block;
+	text-align: center;
+	width: 720px;
+	height: 180px;
+	margin: auto;
+	margin-top: 120px;
+}
+
+.creator {
+ display: grid;
+ align-items: center; 
+ grid-template-columns: 1fr 1fr 1fr;
+ column-gap: 5px;
+ margin-left: 120px;
+ margin-top: 20px;
+}
+
+.creatorimg {
+	width: 360px;
+	height: 360px;
+	background: url("../images/Photo-Max-Siccardi-500x500.jpg");
+	background-size: cover;
+}
+
+.creatorname {
+	font-family: 'martel regular';
+	font-size: 16px;
+	color: black;
+	letter-spacing: 0.1px;
+	line-height: 24px;
+	width: 800px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.creatortext {
+	font-family: 'martel light';
+	font-size: 16px;
+	color: #5e5e5e;
+	letter-spacing: 0.1px;
+	line-height: 24px;
+	width: 800px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.composer {
+ display: grid;
+ align-items: center; 
+ grid-template-columns: 1fr 1fr 1fr;
+ column-gap: 5px;
+ margin-right: 120px;
+ margin-top: 20px;
+}
+
+.composerimg {
+	width: 360px;
+	height: 360px;
+	background: url("../images/Photo-Luca-Longobardi-1-2-1-500x500.jpg");
+	background-size: cover;
+}
+
+.composername {
+	font-family: 'martel regular';
+	font-size: 16px;
+	color: black;
+	letter-spacing: 0.1px;
+	line-height: 24px;
+	width: 800px;
+	margin: auto;
+	margin-top: 20px;
+	text-align: right;
+}
+
+.composertext {
+	font-family: 'martel light';
+	font-size: 16px;
+	color: #5e5e5e;
+	letter-spacing: 0.1px;
+	line-height: 24px;
+	width: 800px;
+	margin: auto;
+	margin-top: 20px;	
+	text-align: right;
+	padding-left: 420px;
+
+}
+
+.animator {
+ display: grid;
+ align-items: center; 
+ grid-template-columns: 1fr 1fr 1fr;
+ column-gap: 5px;
+ margin-left: 120px;
+ margin-top: 20px;
+}
+
+.animatorimg {
+	width: 360px;
+	height: 360px;
+	background: url("../images/Vittorio-500x427.jpg");
+	background-size: cover;
+}
+
+.animatorname {
+	font-family: 'martel regular';
+	font-size: 16px;
+	color: black;
+	letter-spacing: 0.1px;
+	line-height: 24px;
+	width: 800px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.animatortext {
+	font-family: 'martel light';
+	font-size: 16px;
+	color: #5e5e5e;
+	letter-spacing: 0.1px;
+	line-height: 24px;
+	width: 800px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.producer1 {
+ display: grid;
+ align-items: center; 
+ grid-template-columns: 1fr 1fr 1fr;
+ column-gap: 5px;
+ margin-right: 120px;
+ margin-top: 20px;
+}
+
+.producer1img {
+	width: 360px;
+	height: 360px;
+	background: url("../images/portrait-Corey-RGB-500x500.jpg");
+	background-size: cover;
+}
+
+.producer1name {
+	font-family: 'martel regular';
+	font-size: 16px;
+	color: black;
+	letter-spacing: 0.1px;
+	line-height: 24px;
+	width: 800px;
+	margin: auto;
+	margin-top: 20px;
+	text-align: right;
+}
+
+.producer1text {
+	font-family: 'martel light';
+	font-size: 16px;
+	color: #5e5e5e;
+	letter-spacing: 0.1px;
+	line-height: 24px;
+	width: 800px;
+	margin: auto;
+	margin-top: 20px;	
+	text-align: right;
+	padding-left: 420px;
+
+}
+
+.producer2 {
+ display: grid;
+ align-items: center; 
+ grid-template-columns: 1fr 1fr 1fr;
+ column-gap: 5px;
+ margin-left: 120px;
+ margin-top: 20px;
+}
+
+.producer2img {
+	width: 360px;
+	height: 360px;
+	background: url("../images/Sveta_IMG_797-500x500.jpg");
+	background-size: cover;
+}
+
+.producer2name {
+	font-family: 'martel regular';
+	font-size: 16px;
+	color: black;
+	letter-spacing: 0.1px;
+	line-height: 24px;
+	width: 800px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.producer2text {
+	font-family: 'martel light';
+	font-size: 16px;
+	color: #5e5e5e;
+	letter-spacing: 0.1px;
+	line-height: 24px;
+	width: 800px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.producer3 {
+ display: grid;
+ align-items: center; 
+ grid-template-columns: 1fr 1fr 1fr;
+ column-gap: 5px;
+ margin-left: 120px;
+ margin-top: 20px;
+}
+
+.producer3img {
+	width: 360px;
+	height: 360px;
+	background: url("../images/SMIL2319-Edit-scaled-1-e1607628163650-500x500.jpg");
+	background-size: cover;
+}
+
+.producer3name {
+	font-family: 'martel regular';
+	font-size: 16px;
+	color: black;
+	letter-spacing: 0.1px;
+	line-height: 24px;
+	width: 800px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.producer3text {
+	font-family: 'martel light';
+	font-size: 16px;
+	color: #5e5e5e;
+	letter-spacing: 0.1px;
+	line-height: 24px;
+	width: 800px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.Minneapolis {
+	width: 100vw;
+	height: 100vh;
+	background: url("../images/NinaW_ImmVanGogh_062-scaled.jpg") center fixed no-repeat;
+	background-size: cover;
+	margin-top: 60px;
+	align: center;
+}
+
+.title {
+	font-family: 'martel light';
+	font-size: 64px;
+	color: white;
+	line-height: 80px;
+	letter-spacing: 0.3px;
+	text-align: right;
+	position: relative;
+	top: 540px;
+	right: 45px;
+	background: rgba(0,0,0,0.45);
+	padding: 20px;
+	padding-right: 45px;
+	width: 750px;
+	left: 750px;
+}
+
+.mpls {
+ display: grid;
+ align-items: center; 
+ grid-template-columns: 1fr 1fr 1fr;
+ column-gap: 5px;
+ margin-left: 180px;
+ margin-top: 60px;
+}
+
+.mplsimg {
+	width: 240px;
+	height: 240px;
+	background: url("../images/bg-element-safe-orange.jpg") center;
+	background-size: cover;
+}
+
+.mplsname {
+	font-family: 'martel regular';
+	font-size: 32px;
+	color: black;
+	letter-spacing: 0.1px;
+	line-height: 36px;
+	width: 800px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.mplstext {
+	font-family: 'martel light';
+	font-size: 16px;
+	color: #5e5e5e;
+	letter-spacing: 0.1px;
+	line-height: 24px;
+	width: 800px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.venue {
+ display: flex;
+ align-items: right; 
+ grid-template-columns: 1fr 1fr 1fr;
+ column-gap: 5px;
+ margin-left: 360px;
+ margin-top: 150px;
+ margin-bottom: 90px;
+}
+
+.venueimg {
+	width: 450px;
+	height: 450px;
+	background: url("../images/IVG-MSP-VENUE.jpeg") center no-repeat;
+	background-size: cover;
+}
+
+.venuename {
+	font-family: 'roboto';
+	font-size: 30px;
+	color: black;
+	letter-spacing: 0.1px;
+	line-height: 24px;
+	width: 800px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.venue hr{
+	width: 420px;
+	height: 4px;
+	margin: 15px auto;
+	border: 0;
+	background: #ffcc66;
+	float: left;
+}
+
+.venuetext {
+	font-family: 'roboto';
+	font-size: 24px;
+	color: #5e5e5e;
+	letter-spacing: 1px;
+	line-height: 32px;
+	width: 800px;
+	margin: auto;
+	margin-top: 20px;
+	margin-left: 45px;
+}
+
+.maplink {
+	width: 360px;
+	height: 45px;
+	margin-top: 30px;
+	background: url("../images/download.jpg") center;
+	background-size: cover;
+}
+
+.map {
+	font-family: 'roboto';
+	font-size: 15px;
+	color: #6b6b6b;
+	letter-spacing: 0.1px;
+	display: block;
+	border: solid 2px #939393;
+	width: 360px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	text-decoration: none;
+	transition: 0.8s;
+	background: white;
+	position: relative;
+	margin-top: 180px;
+}
+
+.map:hover {
+	color: black;
+	background: #ffcc66;
+	transition: 0.8s;
+}
+
+.footer {
+	width: 100vw;
+	height: 360px;
+	bottom: 0px;
+	background: black;
+	padding: 10px;
+	overflow: hidden;
+	position: relative;
+}
+
+.lighthouse {
+	width: 270px;
+	height: 180px;
+	background: url("../images/images.png") center;
+	background-size: cover;
+	position: absolute;
+	left: 5%;
+	bottom: 46%;
+}
+
+.vision {
+	width: 175px;
+	height: 175px;
+	background: url("../images/visionieccentriche-logo-300x300.png") center;
+	background-size: cover;
+	position: absolute;
+	left: 25%;
+	bottom: 48%;
+}
+
+.canada {
+	width: 600px;
+	height: 60px;
+	background: url("../images/Funded-by-the-Government-of-Canada-Bilingual-Logo-02-1100x128.webp") center;
+	background-size: cover;
+	position: absolute;
+	left: 6%;
+	bottom: 24%;
+}
+
+.copyright {
+	left: 30%;
+	right: 30%;
+	bottom: 4%;
+	width: 600px;
+	height: 21px;
+	background: url("../images/Screenshot 2024.pdf.png") center;
+	background-size: cover;
+	position: absolute;
+	overflow: hidden;
+}
